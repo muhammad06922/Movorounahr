@@ -1,0 +1,81 @@
+.taomlar .cards {
+  padding: 1.1645569620253164vh 1.833180568285976vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  gap: 4.329113924050633vh;
+}
+.taomlar .cards .card {
+  border: 0.15822784810126583vh solid #33333359;
+  border-radius: 1.5822784810126582vh;
+  padding: 0.2822784810126582vh 0.516590284142988vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.taomlar .cards .card .card_picture {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+.taomlar .cards .card .card_picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.taomlar .cards .card .card_title {
+  width: 50%;
+  padding: 1.5822784810126582vh 0.916590284142988vw;
+}
+.taomlar .cards .card .card_title h3 {
+  font-size: 1.848101265822785vh;
+  margin-bottom: 1.2822784810126582vh;
+}
+.taomlar .cards .card .card_title h4 {
+  margin-bottom: 1.2822784810126582vh;
+  font-size: 1.3734177215189876vh;
+}
+.taomlar .cards .card .card_title .btn_add {
+  background-color: rgb(7, 169, 115);
+  padding: 0.5911392405063291vh 1.4498625114573786vw;
+  border-radius: 5px;
+  font-size: 1.2734177215189876vh;
+  color: #fff;
+  cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 428px) {
+  .taomlar .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .taomlar .cards .card {
+    border: 0.15822784810126583vh solid #33333359;
+  }
+  .taomlar .cards .card .card_picture {
+    width: 40%;
+  }
+  .taomlar .cards .card .card_title {
+    width: 50%;
+    padding: 10px;
+  }
+  .taomlar .cards .card .card_title h3 {
+    font-size: 1.948101265822785vh;
+    margin-bottom: 1.2822784810126582vh;
+  }
+  .taomlar .cards .card .card_title h4 {
+    margin-bottom: 1.2822784810126582vh;
+    font-size: 1.4734177215189876vh;
+  }
+  .taomlar .cards .card .card_title .btn_add {
+    background-color: rgb(7, 169, 115);
+    padding: 1.0911392405063291vh 4.9498625114573786vw;
+    border-radius: 0.4vh;
+    font-size: 1.9734177215189876vh;
+  }
+}
+
+@media (min-width: 428px) and (max-width: 1000px) {
+  .taomlar .cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

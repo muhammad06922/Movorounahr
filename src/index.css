@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(90deg, #33333331, #33333331),
+    url("./assets/background.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 70vw;
+  margin: 3.1645569620253164vh auto;
+  background-color: #fff;
+  padding: 3.1645569620253164vh 1.833180568285976vw;
+  border-radius: 2.1645569620253164vh 1.533180568285976vw;
+}
+
+@media (min-width: 428px) and (max-width: 768px) {
+  .container {
+    width: 95vw;
+    padding: 1.5822784810126582vh 0.916590284142988vw;
+    border-radius: 1.5822784810126582vh 0.916590284142988vw;
+    margin: 1.5822784810126582vh auto;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .container {
+    width: 95vw;
+    padding: 1.5822784810126582vh 0.916590284142988vw;
+    border-radius: 1.5822784810126582vh 0.916590284142988vw;
+    margin: 1.5822784810126582vh auto;
+  }
+}
+
+/* btn */
+.btn {
+  border: none;
+  background-color: transparent;
+  font-size: 2.848101265822785vh;
+  cursor: pointer;
+}
+
+@media (min-width: 0px) and (max-width: 428px) {
+  .container {
+    width: 100vw;
+    padding: 1.5822784810126582vh 0.916590284142988vw;
+    border-radius: 1.5822784810126582vh 1.5822784810126582vh 0 0;
+    margin: 0 auto;
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+/* loader   */
+.loader {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+.loader .loader-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+  width: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #333;
+  border-radius: 50px;
+}
