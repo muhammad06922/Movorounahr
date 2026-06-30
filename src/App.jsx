@@ -15,7 +15,10 @@ import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import Reclom from "./page/Reclom/Reclom";
 
 const App = () => {
-  const [array, setArray] = useState([]);
+  const [array, setArray] = useState(()=>{
+      const savedOrders = localStorage.getItem("orders");
+  return savedOrders ? JSON.parse(savedOrders) : [];
+  });
   const [loader, setLoader] = useState(false);
 
 
@@ -40,6 +43,13 @@ const addItem = (newItem) => {
       setLoader(false);
     }, 5000);
   }, []);
+
+
+  useEffect(() => {
+  localStorage.setItem("orders", JSON.stringify(array));
+}, [array]);
+
+
   const router = createBrowserRouter([
     {
       path: "/",

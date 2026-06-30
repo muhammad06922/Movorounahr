@@ -109,9 +109,9 @@ const RouterLayout = () => {
               })}
             </div>
             <div className="All_Price">
-              <h2>
+              <h3>
                Jami - {total} {"so'm"}
-              </h2>
+              </h3>
               <button
                 className="btn btn_all_price"
                 onClick={() => setArray([])}

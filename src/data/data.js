@@ -7,6 +7,7 @@ import siltama from "../assets/taomlar/siltama.png";
 import boyingoshti from "../assets/taomlar/boyingoshti.png";
 import boyingoshtitwo from "../assets/taomlar/boyingoshti-1.png";
 import koza from "../assets/taomlar/koza.png";
+import achiq_gosht from "../assets/taomlar/achiq_gosht.png"
 // fanta
 import fanta from "../assets/ichimliklar/fanta/fanta.jpg";
 import fanta05 from "../assets/ichimliklar/fanta/fanta0.5.png";
@@ -75,7 +76,9 @@ import garner from "../assets/ichimliklar/garnerpng.png";
 import chortoq from "../assets/ichimliklar/chortoq.png";
 import mohito from "../assets/ichimliklar/mohito.png";
 import Toshkentosh from "../assets/taomlar/toshkentosh.png";
+import Keshu from "../assets/Salatlar/Keshu.png"
 import supar from "../assets/Salatlar/supar.jpeg";
+import post_dumba from "../assets/Salatlar/Post_dumba.png"
 import milliycola from "../assets/ichimliklar/milliy/15-milliy-cola.jpg";
 const data = [
   // choyxona osh
@@ -103,7 +106,7 @@ const data = [
     price: 305000,
     type: "rice",
   },{
-    id: 33131231231231231233123123,
+    id: 4,
     name: "Choyxona Oshi",
     kilo: "400 gr",
     picture: devzira,
@@ -119,22 +122,22 @@ const data = [
     price: 460000,
     type: "rice",
   },
-  {
-    id: 6,
-    name: "Movarounnahr oshi",
-    picture: movoronnahir,
-    kilo: "800 gr",
-    price: 390000,
-    type: "rice",
-  },
-  {
-    id: 7,
-    name: "Movarounnahr oshi",
-    picture: movoronnahir,
-    kilo: "600 gr",
-    price: 310000,
-    type: "rice",
-  },
+  // {
+  //   id: 6,
+  //   name: "Movarounnahr oshi",
+  //   picture: movoronnahir,
+  //   kilo: "800 gr",
+  //   price: 390000,
+  //   type: "rice",
+  // },
+  // {
+  //   id: 7,
+  //   name: "Movarounnahr oshi",
+  //   picture: movoronnahir,
+  //   kilo: "600 gr",
+  //   price: 310000,
+  //   type: "rice",
+  // },
   // Qozon Kabob
   {
     id: 8,
@@ -164,7 +167,7 @@ const data = [
   },
   // Bo'yin goshti
   {
-    id: 58,
+    id: 11,
     name: "Bo'yin go'shti",
     picture: boyingoshti,
     kilo: "1 kg",
@@ -172,7 +175,7 @@ const data = [
     type: "rice",
   },
   {
-    id: 59,
+    id: 12,
     name: "Boyin go'shti",
     picture: boyingoshtitwo,
     kilo: "1 pors",
@@ -180,7 +183,7 @@ const data = [
     type: "rice",
   },
   {
-    id: 60,
+    id: 13,
     name: "Ko'za Siltama",
     picture: koza,
     kilo: "1 kg",
@@ -188,17 +191,25 @@ const data = [
     type: "rice",
   },
   {
-    id: 60213,
+    id: 14,
     name: "Toshkent osh",
     picture: Toshkentosh,
     kilo: "1 kg",
     price: 420000,
     type: "rice",
   },
+    {
+    id: 123,
+    name: "Achiq gosht ",
+    picture: achiq_gosht,
+    kilo: "1 kg",
+    price: 295000,
+    type: "rice",
+  },
   // ichimlik ----------------------------------------------------------------
   // pepsi
   {
-    id: 11,
+    id: 15,
     name: "Pepsi",
     picture: pepsi05,
     kilo: "0.5",
@@ -206,7 +217,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 30,
+    id: 16,
     name: "Pepsi",
     picture: pepsi1,
     kilo: "1",
@@ -214,7 +225,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 31,
+    id: 17,
     name: "Pepsi",
     picture: pepsi15,
     kilo: "1.5",
@@ -222,7 +233,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 36,
+    id: 18,
     name: "Pepsi",
     picture: pepsi2,
     kilo: "2",
@@ -231,7 +242,7 @@ const data = [
   },
   // Fanta
   {
-    id: 12,
+    id: 19,
     name: "Fanta",
     picture: fanta05,
     kilo: "0.5",
@@ -239,7 +250,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 32,
+    id: 20,
     name: "Fanta",
     picture: fanta1,
     kilo: "1",
@@ -247,7 +258,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 33,
+    id: 21,
     name: "Fanta",
     picture: fanta15,
     kilo: "1.5",
@@ -255,7 +266,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 73212121212121,
+    id: 22,
     name: "Fanta",
     picture: fanta,
     kilo: "2",
@@ -264,7 +275,7 @@ const data = [
   },
   // Coca cola
   {
-    id: 13,
+    id: 23,
     name: "Coca-Cola",
     picture: cacacola05,
     kilo: "0.5",
@@ -272,7 +283,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 34,
+    id: 24,
     name: "Coca-Cola",
     picture: cocacola01,
     kilo: "1",
@@ -280,7 +291,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 35,
+    id: 25,
     name: "Coca-Cola",
     picture: cocacola15,
     kilo: "1.5",
@@ -288,7 +299,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 36,
+    id: 26,
     name: "Coca-Cola",
     picture: cocacola2,
     kilo: "2",
@@ -321,7 +332,7 @@ const data = [
   // },
   // merenda
   {
-    id: 14,
+    id: 34,
     name: "Mirinda",
     picture: mirinda05,
     kilo: "0.5",
@@ -346,7 +357,7 @@ const data = [
   },
   // 7UP
   {
-    id: 15,
+    id: 40,
     name: "7 up",
     picture: sevenUp05,
     kilo: "0.5",
@@ -354,7 +365,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 39,
+    id: 41,
     name: "7 up",
     picture: sevenUp01,
     kilo: "1",
@@ -362,7 +373,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 40,
+    id: 42,
     name: "7 up",
     picture: sevenUp,
     kilo: "1.5",
@@ -371,7 +382,7 @@ const data = [
   },
   // family
   {
-    id: 16,
+    id: 43,
     name: "Family",
     picture: family05,
     kilo: "0.5",
@@ -379,7 +390,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 41,
+    id: 44,
     name: "Family",
     picture: family,
     kilo: "1",
@@ -387,7 +398,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 42,
+    id: 45,
     name: "Family",
     picture: family,
     kilo: "1.5",
@@ -395,7 +406,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 43,
+    id: 46,
     name: "Barjomi",
     picture: barjomi,
     kilo: "0.5",
@@ -403,7 +414,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 44,
+    id: 47,
     name: "Kelechek",
     picture: kelechek,
     kilo: "0.5",
@@ -411,7 +422,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 45,
+    id: 48,
     name: "Kelechek",
     picture: kelechek,
     kilo: "1",
@@ -419,7 +430,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 451,
+    id: 49,
     name: "Aloe",
     picture: aloe,
     kilo: "1.5",
@@ -427,7 +438,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 452,
+    id: 50,
     name: "Aloe",
     picture: aloe2,
     kilo: "0.5",
@@ -435,7 +446,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 453,
+    id: 51,
     name: "Garden",
     picture: garner,
     kilo: "0.5",
@@ -443,7 +454,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 453,
+    id: 52,
     name: "Garden",
     picture: garner,
     kilo: "1.2",
@@ -459,7 +470,7 @@ const data = [
   //   type: "drink",
   // },
   {
-    id: 51,
+    id: 53,
     name: "Fuce Tea",
     picture: tea,
     kilo: "1",
@@ -467,7 +478,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 454,
+    id: 54,
     name: "Chortoq",
     picture: chortoq,
     kilo: "0.5",
@@ -475,7 +486,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 454,
+    id: 55,
     name: "Maxito",
     picture: mohito,
     kilo: "0.5",
@@ -483,7 +494,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 46,
+    id: 56,
     name: "Sochnaya dalina Tropik meva",
     picture: dalina,
     kilo: "1",
@@ -491,7 +502,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 46,
+    id: 57,
     name: "Sochnaya dalina Oddiy meva",
     picture: dalinaoddiy,
     kilo: "1",
@@ -499,7 +510,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 47,
+    id: 58,
     name: "Viko Tropik meva",
     picture: viko,
     kilo: "1",
@@ -507,7 +518,7 @@ const data = [
     type: "drink",
   },
   {
-    id: 4712121,
+    id: 59,
     name: "Viko Oddiy meva",
     picture: vikooddiy,
     kilo: "1",
@@ -547,7 +558,7 @@ const data = [
   //   type: "drink",
   // },
   {
-    id: 53,
+    id: 60,
     name: "Flesh",
     picture: flesh,
     kilo: "0.5",
@@ -563,7 +574,7 @@ const data = [
   //   type: "drink",
   // },
   {
-    id: 55,
+    id: 61,
     name: "Adrenalin",
     picture: adrenalin,
     kilo: "0.5",
@@ -581,7 +592,7 @@ const data = [
 
   // ----------------------------------------------------------------
   {
-    id: 17,
+    id: 62,
     name: "Banan",
     picture: banan,
     kilo: "1 kg",
@@ -589,7 +600,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 18,
+    id: 63,
     name: "Apelsin",
     picture: apelsin,
     kilo: "1 kg",
@@ -597,7 +608,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 18211,
+    id: 64,
     name: "Mandarin",
     picture: mandarin,
     kilo: "1 kg",
@@ -605,7 +616,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 18212,
+    id: 65,
     name: "Anor",
     picture: anor,
     kilo: "1 kg",
@@ -613,7 +624,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 19,
+    id: 66,
     name: "Olma",
     picture: olma,
     kilo: "1 kg",
@@ -621,7 +632,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 1921,
+    id: 67,
     name: "Nok",
     picture: nok,
     kilo: "1 kg",
@@ -629,7 +640,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 20,
+    id: 68,
     name: "Limon",
     picture: limon,
     kilo: "1-dona",
@@ -637,7 +648,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 21,
+    id: 69,
     name: "Kivi",
     picture: kivi,
     kilo: "1 kg",
@@ -645,7 +656,7 @@ const data = [
     type: "fruit",
   },
   {
-    id: 22,
+    id: 70,
     name: "Shakarop",
     picture: shakarop,
     kilo: "1 dona",
@@ -653,7 +664,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 23,
+    id: 71,
     name: "Sveji salat",
     picture: salat,
     kilo: "1 dona",
@@ -661,7 +672,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 24,
+    id: 72,
     name: "Suzma",
     picture: zelenniy,
     kilo: "1 dona",
@@ -669,7 +680,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 2433321,
+    id: 73,
     name: "Salyonni",
     picture: salyoniSalat,
     kilo: "1 dona",
@@ -677,7 +688,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 25,
+    id: 74,
     name: "Pista",
     picture: pista,
     kilo: "",
@@ -685,7 +696,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 254321,
+    id:75,
     name: "Turk Pista",
     picture: pista,
     kilo: "",
@@ -693,7 +704,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 26,
+    id: 76,
     name: "Bodom",
     picture: bodom,
     kilo: "",
@@ -701,15 +712,15 @@ const data = [
     type: "outher",
   },
   {
-    id: 2632123,
+    id:77,
     name: "Keshu",
-    picture: bodom,
+    picture: Keshu,
     kilo: "",
     price: 35000,
     type: "outher",
   },
   {
-    id: 26,
+    id: 78,
     name: "Yer-yongok",
     picture: yerYongok,
     kilo: " ",
@@ -717,7 +728,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 26,
+    id: 79,
     name: "Non",
     picture: non,
     kilo: "1 dona",
@@ -733,7 +744,7 @@ const data = [
     type: "outher",
   },
   {
-    id: 2622,
+    id: 81,
     name: "Supar",
     picture: supar,
     kilo: "100 gr",
@@ -741,9 +752,9 @@ const data = [
     type: "outher",
   },
   {
-    id: 2622,
+    id: 82,
     name: "Po'st dumba",
-    picture: "",
+    picture: post_dumba,
     kilo: "100 gr",
     price: 32000,
     type: "outher",
